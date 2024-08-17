@@ -1,0 +1,89 @@
+$Colors-Header-surface-primary : #fff;
+
+// Custom Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1300px
+) !default;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25, // 4px
+  2: $spacer * 0.5,  // 8px
+  3: $spacer,        // 16px
+  4: $spacer * 1.5,  // 24px
+  5: $spacer * 3,    // 48px
+  6: $spacer * 6,    // 96px
+  7: $spacer * 8,    // 128px
+  8: $spacer * 12,   // 192px
+) !default;
+
+// Font
+$font-family-sans-serif: "Montserrat", sans-serif;
+
+// Headings
+$headings-font-weight: bold;
+$headings-margin-bottom: $spacer * 1;
+$headings-font-family: "Poppins", sans-serif;
+
+// Link Color
+$link-color: white;
+
+// Colors
+$primary: #ffffff;
+$secondary: #000000;
+$dark: #2b3041;
+$light: #f3f6f9; 
+$body-bg: $Colors-Header-surface-primary;
+
+
+ 
+
+
+// Typography
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+// Button sizes
+$btn-padding-y-sm: .25rem !default;
+$btn-padding-x-sm: .5rem !default;
+$btn-font-size-sm: .875rem !default;
+
+$btn-padding-y: .375rem !default;
+$btn-padding-x: .75rem !default;
+$btn-font-size: 1rem !default;
+
+$btn-padding-y-lg: .5rem !default;
+$btn-padding-x-lg: 1rem !default;
+$btn-font-size-lg: 1.25rem !default;
+
+$btn-border-width: 1px !default;
+                  
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+ 
