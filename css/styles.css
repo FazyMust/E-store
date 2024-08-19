@@ -476,6 +476,7 @@ img {
 
 #collection {
   padding-top: 90px;
+  padding-bottom: 102px;
 }
 #collection .header {
   margin-bottom: 42px;
@@ -571,5 +572,91 @@ img {
   background-color: #212529;
 }
 #collection .scroll-buttons .btn-right:hover i {
+  color: white;
+}
+
+#collection2 {
+  padding: 20px 0;
+}
+#collection2 .header {
+  margin: 42px 0;
+}
+@media (max-width: 991px) {
+  #collection2 .header {
+    margin-bottom: 36px;
+  }
+}
+#collection2 .header h3 {
+  color: var(--Primary-color-P400, #0e0e0e);
+  /* H1/medium */
+  font-family: Outfit;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 2.4rem */
+}
+#collection2 .header a {
+  color: var(--Primary-color-P400, #0e0e0e);
+  /* H3/ Medium  */
+  font-family: Outfit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#collection2 .custom-scrollbar {
+  width: 308px;
+  height: 4px;
+  background: #f6f6f6;
+  border-radius: 4px;
+  margin: 32px auto 0;
+  position: relative;
+}
+@media (max-width: 991px) {
+  #collection2 .custom-scrollbar {
+    margin: 16px auto 0;
+  }
+}
+#collection2 .custom-scrollbar .scrollbar-thumb {
+  height: 100%;
+  width: 70%;
+  background: #d9d9d9;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#collection2 .scroll-buttons .btn-left {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+  position: relative;
+  overflow: hidden;
+}
+#collection2 .scroll-buttons .btn-left i {
+  color: #e3e3e3;
+}
+#collection2 .scroll-buttons .btn-left:hover {
+  background-color: #e3e3e3;
+}
+#collection2 .scroll-buttons .btn-left:hover i {
+  color: #080808;
+}
+#collection2 .scroll-buttons .btn-right {
+  width: 52px;
+  height: 52px;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+#collection2 .scroll-buttons .btn-right i {
+  color: #080808;
+}
+#collection2 .scroll-buttons .btn-right:hover {
+  background-color: #212529;
+}
+#collection2 .scroll-buttons .btn-right:hover i {
   color: white;
 }
