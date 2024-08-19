@@ -385,8 +385,6 @@ $header-top-bd-color: #212529;
   }
 }
 
-
-
 #hot-deals {
   padding-top: 60px;
 
@@ -422,34 +420,34 @@ $header-top-bd-color: #212529;
     @media (max-width: 991px) {
       margin-bottom: 48px;
     }
+  }
+}
 
-    .deal-card {
-      img {
-        border-radius: 4px;
-      }
+.deal-card {
+  img {
+    border-radius: 4px;
+  }
 
-      .details {
-        color: var(--Primary-color-P400, #0e0e0e);
+  .details {
+    color: var(--Primary-color-P400, #0e0e0e);
 
-        /* Text Regular/ Semi Bold */
-        font-family: Outfit;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-      }
+    /* Text Regular/ Semi Bold */
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 
-      .price {
-        color: var(--Primary-color-P400, #0e0e0e);
+  .price {
+    color: var(--Primary-color-P400, #0e0e0e);
 
-        /* Text Regular/ Bold */
-        font-family: Outfit;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
-    }
+    /* Text Regular/ Bold */
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 }
 
@@ -528,16 +526,16 @@ $header-top-bd-color: #212529;
       width: 52px;
       height: 52px;
       border-radius: 50%;
-      border: 1px solid #E3E3E3;
+      border: 1px solid #e3e3e3;
       position: relative;
       overflow: hidden;
 
       i {
-        color: #E3E3E3;
+        color: #e3e3e3;
       }
 
       &:hover {
-        background-color: #E3E3E3;
+        background-color: #e3e3e3;
 
         i {
           color: #080808;
@@ -548,7 +546,7 @@ $header-top-bd-color: #212529;
     .btn-right {
       width: 52px;
       height: 52px;
-      background-color: #F6F6F6;
+      background-color: #f6f6f6;
       border-radius: 50%;
       position: relative;
       overflow: hidden;
